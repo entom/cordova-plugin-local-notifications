@@ -124,6 +124,10 @@ public final class Manager {
         if (SDK_INT < O)
             return;
 
+        String groupId = options.getChannelGroupId();
+        CharSequence groupName = options.getChannelGroupId();
+        mgr.createNotificationChannelGroup(new NotificationChannelGroup(groupId, groupName));
+
         NotificationChannel channel = mgr.getNotificationChannel(options.getChannel());
 
         if (channel != null)

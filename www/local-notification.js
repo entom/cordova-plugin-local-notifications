@@ -28,6 +28,8 @@ exports._defaults = {
     attachments   : [],
     autoClear     : true,
     badge         : null,
+    channelGroupId    : null,
+    channelGroupName  : null,
     channel       : null,
     channelDescription: null,
     clock         : true,

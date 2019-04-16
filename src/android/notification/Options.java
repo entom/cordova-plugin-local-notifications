@@ -215,6 +215,9 @@ public final class Options {
     String getChannel() { return options.optString("channel", Manager.DEFAULT_CHANNEL_ID); }
     String getChannelDescription() { return options.optString("channelDescription", Manager.DEFAULT_CHANNEL_DESCRIPTION); }
 
+    String getChannelGroupName() { return options.optString("channelGroupName", "Other") }
+    String getChannelGroupId() { return options.optString("channelGroupId", "other") }
+
     /**
      * If the group shall show a summary.
      */
