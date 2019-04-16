@@ -519,7 +519,7 @@ See the sample app for how to use them.
 
 To install the latest version:
 
-    $ cordova plugin add https://github.com/Steffaan/cordova-plugin-local-notifications.git
+    $ cordova plugin add https://github.com/entom/cordova-plugin-local-notifications.git
 
 
 ## License
